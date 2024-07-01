@@ -1,0 +1,57 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(248, 236, 220, 0.781);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#registroForm {
+    background-color: bisque;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px black;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label.inline {
+    display: inline-block;
+}
+
+input, select {
+    padding: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: rgb(136, 185, 136);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    transition: .5s ease;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(125, 170, 125);
+}
+
+.error {
+    margin-top: 5px;
+    color: red;
+    font-size: 13px;
+}
